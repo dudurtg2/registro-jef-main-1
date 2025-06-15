@@ -1,0 +1,49 @@
+.title{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.title-icon{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-left: 15px;
+    border-radius: 100%;
+}
+
+.title-icon a{
+    margin: 0px;
+}
+
+
+
+.custom-swal-popup {
+    background-color: #ffffff;
+    border: 2px solid #8800FF;
+    border-radius: 15px;
+  }
+  
+  .custom-swal-title {
+    color: #8800FF;
+    font-weight: bold;
+  }
+  
+  .custom-swal-button {
+    background-color: #8800FF !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .custom-swal-icon .swal2-success-ring {
+    border: 4px solid #8800FF !important;
+  }
+  
+  .custom-swal-icon .swal2-success-line-tip,
+  .custom-swal-icon .swal2-success-line-long {
+    background-color: #8800FF !important;
+  }

@@ -1,0 +1,84 @@
+.dados-pessoais{
+    background-color: white;
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.dados-conta{
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 5px;
+}
+.title-sec h4{
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.title{
+    color: white;
+    background: rgba(0, 0, 0, 0.452);
+    /*background-image: #8f46cf;*/
+    padding: 5px;
+    border-radius: 4px 4px 0px 0px;
+    margin-top: 20px;
+}
+
+h1{
+    color: white;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*---------------------------------------*/
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .gradient {
+    --size: 750px;
+    --speed: 3s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    z-index: -1;
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(#cc00ff, rgb(102, 0, 255));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  
+  @media (min-width: 720px) {
+    .gradient {
+      --size: 500px;
+    }
+  }
+  
+  body{
+    background-color: black;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* This is just to transition when you change the viewport size. */
+  * {
+    transition: all 0.5s ease-out;
+  }
+  /*---------------------------------------*/

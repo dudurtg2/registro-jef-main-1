@@ -1,0 +1,19 @@
+#outlined-required{
+  border-radius: 4px;
+  background-color: #E6E6E6;
+}
+
+#outlined-password-input{
+  border-radius: 4px;
+  background-color: #E6E6E6;
+}
+
+.botao{
+  margin-top: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}

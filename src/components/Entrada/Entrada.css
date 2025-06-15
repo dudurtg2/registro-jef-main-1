@@ -1,0 +1,39 @@
+.entrada-container {
+    position: relative;
+    background: rgba(0, 0, 0, 0.521);
+    border-radius: 16px;
+    padding: 52px 44px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.623);
+    z-index: 1;
+    min-width: 320px;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+.entrada-gradient {
+    --size: 450px;
+    --speed: 3s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+    position: absolute;
+    top: 20%;
+    width: var(--size);
+    height: var(--size);
+    z-index: -1;
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(#cc00ff, rgb(102, 0, 255));
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+
+.entrada-header h1 {
+    margin-bottom: 16px;
+}
+
+.entrada-footer {
+    margin-top: 24px;
+    font-size: 0.9em;
+    color: #888;
+}

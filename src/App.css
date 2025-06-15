@@ -1,0 +1,93 @@
+#root {
+
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  color: #8f46cf;
+  text-align: left;
+}
+
+.tela{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.form-login{
+  display: co;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+h3{
+  margin-left: 10px;
+}
+
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+}
+
+.logo{
+  max-width: 20%;
+}
+
+.img-lateral{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+  width: 70vw;
+}
+
+.img-lateral img{
+  border-radius: 0px 20px 20px 0px;
+}
+
+a{
+  text-decoration: none;
+  margin: 20px;
+  color: #C37FFF;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.title-log{
+  background: rgba(0, 0, 0, 0.452);
+  color: white;
+  padding: 5px;
+  justify-content: left;
+  width: 97.1%;
+  border-radius: 4px 4px 0px 0px;
+  margin-top: 20px;
+}
