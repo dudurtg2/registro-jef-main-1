@@ -8,7 +8,6 @@ import Register from './Register';
 import Entrada from './components/Entrada/Entrada';
 <Route path="/entrada" element={<Entrada />} />
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RegisterAcco from './RegisterAcco.jsx'
 import { Link } from "react-router-dom";
 
 const theme = createTheme({
@@ -72,7 +71,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/registerAcco" element={<RegisterAcco />} />
         <Route path="/Entrada" element={<Entrada />} />
       </Routes>
     </Router>
